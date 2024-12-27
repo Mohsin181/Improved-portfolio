@@ -5,8 +5,7 @@
 @layer base{
   body{
     color: white;
-    background-color:  rgb(89, 89, 146)
-    
+    background-color:  white
   }
 }
  @layer components{

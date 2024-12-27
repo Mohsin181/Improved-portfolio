@@ -1,18 +1,15 @@
-import react from "react"
-
-import React from 'react'
 import Navbar from "@/components/Navbar";
 
 const Hero = () => {
     return (
-        <div id="Hero" className=" min-h-screen bg-cover bg-center bg-no-repeat bg-centre bg-[url('/profile-pic.png')]"
+        <div id="Hero" className=" bg- min-h-screen bg-cover bg-center bg-no-repeat bg-centre bg-[url('/Mohsin-pic.png')]"
 
             style={{ backgroundSize: "15%" }} >
 
 
 
             <Navbar />
-            
+
 
 
             <div className="container grid lg:grid-cols-2 h-  { calc (100vh-60px)] text-centre">
@@ -20,7 +17,7 @@ const Hero = () => {
                     <div className="hidden lg:block">
 
 
-                        <div>
+                        <div className="">
 
                         </div>
 
@@ -38,14 +35,15 @@ const Hero = () => {
                 <li className="menulink bg-black"> <a href="#About"></a>Skills</li>
                 <li className="menulink bg-black"> <a href="#Projects"></a>Projects</li>
                 <li className="menulink bg-black"><a href="#Skills"></a>Skills</li>
-    
+
             </ul>
-<div>
-    
-</div>
+            <div>
+
+            </div>
 
         </div>
     )
 }
 
 export default Hero
+

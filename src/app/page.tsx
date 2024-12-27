@@ -1,5 +1,3 @@
-import react from "react"
-import Image from "next/image"
 import Hero from "@/components/Hero"
 
 
